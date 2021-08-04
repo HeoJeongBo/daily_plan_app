@@ -66,7 +66,7 @@ class _HomeState extends State<Home> {
         children: [
           Text(
             "하루 알람",
-            style: TextStyle(fontSize: 70.0, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 70.0, fontWeight: FontWeight.w900),
           ),
           Text(
             ".",
