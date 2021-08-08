@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 final ThemeData appThemeData = ThemeData(
   primaryColor: Colors.black,
-  textTheme: GoogleFonts.robotoTextTheme(),
+  textTheme: GoogleFonts.notoSansTextTheme(),
   scaffoldBackgroundColor: Colors.white,
   appBarTheme: AppBarTheme(
     color: Colors.white,

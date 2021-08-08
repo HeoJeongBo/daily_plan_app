@@ -13,7 +13,7 @@ void main() {
       builder: () => GetMaterialApp(
         debugShowCheckedModeBanner: false,
         initialRoute: Routes.INITIAL,
-        defaultTransition: Transition.fade,
+        defaultTransition: Transition.rightToLeftWithFade,
         getPages: AppPages.pages,
         home: OnBoard(),
         locale: Locale('ko', 'KR'),

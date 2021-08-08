@@ -62,7 +62,7 @@ class _BodyState extends State<Body> {
                         Get.toNamed('/LOGIN');
                       },
                       child: Text(
-                        "로그인",
+                        "시작하기",
                         style: TextStyle(fontSize: 20.sp),
                       ),
                       style: ElevatedButton.styleFrom(
