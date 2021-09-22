@@ -122,7 +122,6 @@ class _BodyState extends State<Body> {
         ),
         GestureDetector(
             onTap: () {
-              print('adasdasd');
               Get.toNamed('/FORGET_PASSWORD');
             },
             child: Text('비밀번호 찾기')),
